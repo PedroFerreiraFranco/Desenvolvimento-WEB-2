@@ -45,7 +45,7 @@ function Verificar() {
             }
         }
         res.style.textAlign = 'center'
-        res.innerHTML = `Escola ${tipo} possui ${idade} anos, e está qualificada como ${tipoIdade}.`
+        res.innerHTML = `Escola ${tipo} de Machado, está qualificada como ${tipoIdade}, ${idade}  anos.`
         res.appendChild(img)
         }
 }
